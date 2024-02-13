@@ -5,15 +5,15 @@ Funcionalidade: Aprender Cucumber
   Eu quero aprender a utilizar Cucumber
   Para que eu possa automatizar criterios de aceitacao
 
-#  Cenario: Validar incrementação do contador
-#    Dado que o contador esteja em 15
-#    Quando eu incrementar em 3
-#    Entao deve ser 18 o valor do contador
-#
-#  Cenario: Validar incrementação do contador
-#    Dado que o contador esteja em 10
-#    Quando eu incrementar em 5
-#    Entao deve ser 15 o valor do contador
+  Cenario: Validar incrementação do contador
+    Dado que o contador esteja em 15
+    Quando eu incrementar em 3
+    Entao deve ser 18 o valor do contador
+
+  Cenario: Validar incrementação do contador
+    Dado que o contador esteja em 10
+    Quando eu incrementar em 5
+    Entao deve ser 15 o valor do contador
 
   Cenário: Deve criar steps genéricos para estes passos
     Dado que o ticket é "AF345"
